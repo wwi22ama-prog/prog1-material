@@ -1,3 +1,17 @@
 go 1.19
 
-use ./codebeispiele/grundlagen/hallowelt
+use (
+	./aufgaben/grundlagen/formen
+	./aufgaben/grundlagen/funktionen
+	./aufgaben/grundlagen/primzahlen
+	./aufgaben/grundlagen/strings
+	./codebeispiele/grundlagen/funktionen
+	./codebeispiele/grundlagen/hallowelt
+	./codebeispiele/grundlagen/ifthenelse
+	./codebeispiele/grundlagen/operatoren
+	./codebeispiele/grundlagen/schleifen
+	./codebeispiele/grundlagen/string_eingabe
+	./codebeispiele/grundlagen/strings
+	./codebeispiele/grundlagen/summe_einfach
+	./codebeispiele/grundlagen/variablen
+)

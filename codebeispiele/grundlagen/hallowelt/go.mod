@@ -1,3 +1,3 @@
-module github.com/reinerhuechting/vl-material/codebeispiele/grundlagen/hallowelt
+module github.com/reinerhuechting/prog1-material/codebeispiele/grundlagen/hallowelt
 
 go 1.19

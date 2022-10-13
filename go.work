@@ -5,6 +5,8 @@ use (
 	./aufgaben/grundlagen/funktionen
 	./aufgaben/grundlagen/primzahlen
 	./aufgaben/grundlagen/strings
+	./code_vorlesung/repls/AutomatisiertesRechnen
+	./code_vorlesung/repls/go-einfuehrung
 	./code_vorlesung/sum
 	./codebeispiele/grundlagen/funktionen
 	./codebeispiele/grundlagen/hallowelt

@@ -5,6 +5,7 @@ use (
 	./aufgaben/grundlagen/funktionen
 	./aufgaben/grundlagen/primzahlen
 	./aufgaben/grundlagen/strings
+	./code_vorlesung/sum
 	./codebeispiele/grundlagen/funktionen
 	./codebeispiele/grundlagen/hallowelt
 	./codebeispiele/grundlagen/ifthenelse

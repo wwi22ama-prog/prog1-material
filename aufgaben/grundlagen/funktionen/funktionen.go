@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+func main() {}
+
 // Gibt einen String auf der Konsole aus.
 func Greet() {
 	fmt.Println("Funktion 'greet()' aufgerufen.")

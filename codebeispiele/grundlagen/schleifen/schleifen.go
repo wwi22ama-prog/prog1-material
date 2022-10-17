@@ -1,42 +1,6 @@
-package main
+package schleifen
 
 import "fmt"
-
-func main() {
-	// Aufrufe der Funktion CountTo()
-	CountTo(5)
-	CountTo(17)
-
-	// Aufrufe der Funktion CountToStep()
-	CountToStep(5, 2)
-	CountToStep(17, 2)
-	CountToStep(17, 4)
-	CountToStep(17, 6)
-
-	// Aufrufe der Funktion CountDown()
-	CountDown(5)
-	CountDown(17)
-
-	// Aufrufe der Funktion ConcatNTimes()
-	// Diese Funktion liefert wieder ein Ergebnis,
-	// das wir ausgeben oder verwenden können.
-	fmt.Println(ConcatNTimes("Hallo", 3))
-	s1 := ConcatNTimes("Welt", 4)
-	fmt.Println(s1)
-	s2 := ConcatNTimes(ConcatNTimes("ABC ", 2), 4)
-	fmt.Println(s2)
-
-	// Aufrufe der Funktion SumN().
-	fmt.Println(SumN(3))
-	fmt.Println(SumN(5))
-	fmt.Println(SumN(10))
-	fmt.Println(SumN(500))
-
-	// Test der Funktion DisplayDoubles.
-	// Beachte: Für diese Funktion gibt es keinen Test in schleifen_test.go,
-	// weil ein Test die Eingaben automatisieren müsste.
-	DisplayDoubles()
-}
 
 // Erwartet eine Zahl n und zählt von 0 bis zu dieser Zahl.
 func CountTo(n int) {
@@ -89,5 +53,14 @@ func DisplayDoubles() {
 		fmt.Print("Bitte eine Zahl eingeben: ")
 		fmt.Scanln(&input)
 		fmt.Printf("%v\n\n", 2*input)
+	}
+}
+
+// Erwartet einen String s.
+// Verwendet eine range-for-Schleife, um jeden Buchstaben von s
+// zusammen mit dessen Position einzeln auszugeben.
+func PrintStringLetters(s string) {
+	for i, v := range s {
+		fmt.Printf("%v: %c, ", i, v)
 	}
 }

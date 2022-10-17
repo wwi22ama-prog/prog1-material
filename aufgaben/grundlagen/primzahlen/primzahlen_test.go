@@ -88,6 +88,27 @@ func ExamplePrintPrimes() {
 	// 23
 }
 
+func ExampleNextPrime() {
+	fmt.Println(NextPrime(1))
+	fmt.Println(NextPrime(2))
+	fmt.Println(NextPrime(3))
+	fmt.Println(NextPrime(4))
+	fmt.Println(NextPrime(5))
+	fmt.Println(NextPrime(10))
+	fmt.Println(NextPrime(24))
+	fmt.Println(NextPrime(30))
+
+	// Output:
+	// 2
+	// 2
+	// 3
+	// 5
+	// 5
+	// 11
+	// 29
+	// 31
+}
+
 func ExampleNextPrimeTwin() {
 	fmt.Println(NextPrimeTwin(1))
 	fmt.Println(NextPrimeTwin(2))
@@ -105,4 +126,19 @@ func ExampleNextPrimeTwin() {
 	// 5
 	// 11
 	// 41
+}
+
+func Example() {
+	fmt.Println(GreatestPrimeBelow(10))
+	fmt.Println(GreatestPrimeBelow(100))
+	fmt.Println(GreatestPrimeBelow(1000))
+	fmt.Println(GreatestPrimeBelow(10000))
+	fmt.Println(GreatestPrimeBelow(2))
+
+	// Output:
+	// 7
+	// 97
+	// 997
+	// 9973
+	// 0
 }

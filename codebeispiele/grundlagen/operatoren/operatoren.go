@@ -1,29 +1,36 @@
-package main
+package operatoren
 
 import "fmt"
 
-func main() {
-	// Ein Überblick über die wichtigsten Operatoren, die es in Go gibt.
+// Die "klassischen" arithmetischen Operatoren.
+func ArithmetischeOperatoren() {
 
-	// Die "klassischen" arithmetischen Operatoren:
 	fmt.Println(12 + 4)
 	fmt.Println(12 - 4)
 	fmt.Println(12 * 4)
 	fmt.Println(12 / 4)
+}
 
+// Besonderheiten beim Umgang mit Kommazahlen.
+func ArithmetischeOperatorenBesonderheiten() {
 	// Vorsicht bei der Division mit ganzen Zahlen:
 	fmt.Println(12 / 5) // Der Rest wird weggeworfen.
 	fmt.Println(12 % 5) // Der "modulo"-Operator liefert den Rest.
 
 	// Es gibt auch Kommazahlen, man muss sie aber explizit benutzen:
 	fmt.Println(12.0 / 5)
+}
 
-	// Das geht natürlich auch mit Variablen und verschachtelt:
+// Operatoren funktionieren auch mit Variablen und können verschachtelt werden.
+func ArithmetischeOperatorenVariablen() {
 	x1 := 42
 	fmt.Println(x1 / 6)
 	fmt.Println((x1/6 + 3) * 5)
 
-	// Boolesche Operatoren und Vergleiche:
+}
+
+// Boolesche Operatoren und Vergleiche:
+func BoolescheOperatoren() {
 
 	// Logisches "Und"
 	fmt.Println(true && false)

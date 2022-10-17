@@ -1,4 +1,4 @@
-package main
+package schleifen
 
 import "fmt"
 
@@ -123,4 +123,11 @@ func ExampleSumN() {
 	// 15
 	// 55
 	// 125250
+}
+
+func ExamplePrintStringLetters() {
+	PrintStringLetters("Hallo")
+
+	// Output:
+	// 0: H, 1: a, 2: l, 3: l, 4: o,
 }

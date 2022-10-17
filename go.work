@@ -1,20 +1,10 @@
 go 1.19
 
 use (
-	./aufgaben/grundlagen/formen
-	./aufgaben/grundlagen/funktionen
-	./aufgaben/grundlagen/primzahlen
-	./aufgaben/grundlagen/strings
+	./aufgaben/grundlagen
 	./code_vorlesung/repls/AutomatisiertesRechnen
 	./code_vorlesung/repls/go-einfuehrung
-	./code_vorlesung/sum
-	./codebeispiele/grundlagen/funktionen
-	./codebeispiele/grundlagen/hallowelt
-	./codebeispiele/grundlagen/ifthenelse
-	./codebeispiele/grundlagen/operatoren
-	./codebeispiele/grundlagen/schleifen
-	./codebeispiele/grundlagen/string_eingabe
-	./codebeispiele/grundlagen/strings
-	./codebeispiele/grundlagen/summe_einfach
-	./codebeispiele/grundlagen/variablen
+	./codebeispiele/grundlagen
+	./codebeispiele/hallowelt
+	./codebeispiele/summenberechnung
 )

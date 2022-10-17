@@ -1,28 +1,6 @@
-package main
+package ifthenelse
 
 import "fmt"
-
-func main() {
-	// Tests der Funktion Judge()
-	Judge(42)
-	Judge(13)
-
-	// Tests der Funktion IsLarge()
-	// Diese Funktion liefert entweder true oder false.
-	// Diesen Datentyp nennt man bool.
-	fmt.Println(IsLarge(42))
-	fmt.Println(IsLarge(13))
-
-	// Tests der Funktion PrintDivisors()
-	PrintDivisors(3, 25)
-	PrintDivisors(17, 100)
-	PrintDivisors(2, 10)
-
-	// Tests der Funktion SumNRec()
-	fmt.Println(SumNRec(5))
-	fmt.Println(SumNRec(13))
-	fmt.Println(SumNRec(200))
-}
 
 // Erwartet eine Zahl n bewerte sie, ob es eine gute Zahl ist.
 // Die Bewertung wird auf die Konsole geschrieben.

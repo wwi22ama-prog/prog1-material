@@ -68,6 +68,26 @@ func ExamplePrintCustomSquare() {
 	// AA
 }
 
+func ExamplePrintRectangle() {
+	PrintRectangle(3, 4)
+	fmt.Println()
+	PrintRectangle(5, 2)
+	fmt.Println()
+	PrintRectangle(2, 2)
+
+	// Output:
+	// ***
+	// ***
+	// ***
+	// ***
+	//
+	// *****
+	// *****
+	//
+	// **
+	// **
+}
+
 func ExamplePrintTriangle() {
 	PrintTriangle(3)
 	fmt.Println()
@@ -88,24 +108,4 @@ func ExamplePrintTriangle() {
 	//
 	// **
 	// *
-}
-
-func ExamplePrintRectangle() {
-	PrintRectangle(3, 4)
-	fmt.Println()
-	PrintRectangle(5, 2)
-	fmt.Println()
-	PrintRectangle(2, 2)
-
-	// Output:
-	// ***
-	// ***
-	// ***
-	// ***
-	//
-	// *****
-	// *****
-	//
-	// **
-	// **
 }

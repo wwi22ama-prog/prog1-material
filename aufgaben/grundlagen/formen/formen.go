@@ -3,13 +3,13 @@ package main
 func main() {}
 
 // Erwartet eine Zahl n und gibt ein Quadrat der Seitenlänge n auf die Konsole aus.
-// Das Dreieck soll mit Hilfe des Zeichens "*" gezeichnet werden.
+// Das Quadrat soll mit Hilfe des Zeichens "*" gezeichnet werden.
 func PrintSquare(n int) {
 	// TODO
 }
 
 // Erwartet eine Zahl n und gibt ein Quadrat der Seitenlänge n auf die Konsole aus.
-// Der Rand des Dreiecks soll mit Hilfe des Zeichens "*" gezeichnet werden.
+// Der Rand des Quadrats soll mit Hilfe des Zeichens "*" gezeichnet werden.
 // Das Innere soll aus Leerzeichen bestehen.
 func PrintEmptySquare(n int) {
 	// TODO

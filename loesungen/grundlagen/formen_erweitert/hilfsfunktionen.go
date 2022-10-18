@@ -17,10 +17,8 @@ func PrintCustomRow(n int, border, fill string) {
 	fmt.Println()
 }
 
-// Gibt ein benutzerdefiniertes Rechteck der Breite m und der Höne n
-// aus, dessen Begrenzungen bzw. Inneres durch die Strings border und fill
-// gegeben sind.
-// Funktioniert nur korrekt für m,n >= 2
+// Gibt ein benutzerdefiniertes Rechteck der Breite m und der Höne n aus
+// dessen Begrenzungen bzw. Inneres durch die Strings border und fill gegeben sind.
 func PrintCustomRectangle(m, n int, border, fill string) {
 	PrintCustomRow(m, border, border)
 	for i := 0; i < n-2; i++ {

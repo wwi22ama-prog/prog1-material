@@ -47,7 +47,7 @@ func PrintCustomSquare(n int, border, fill string) {
 }
 
 // Erwartet zwei Zahlen m und n und gibt ein Rechteck
-// der Höhe m und der Breite n auf die Konsole aus.
+// der Breite m und der Höhe n auf die Konsole aus.
 // Das Rechteck soll mit dem Zeichen "*" ausgefüllt sein.
 func PrintRectangle(m, n int) {
 	for i := 0; i < n; i++ {

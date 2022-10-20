@@ -6,6 +6,7 @@ use (
 	./code_vorlesung/repls/go-einfuehrung
 	./codebeispiele/grundlagen
 	./codebeispiele/hallowelt
+	./codebeispiele/scopes
 	./codebeispiele/summenberechnung
 	./loesungen/grundlagen
 )

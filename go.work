@@ -6,9 +6,9 @@ use (
 	./code_vorlesung/repls/AutomatisiertesRechnen
 	./code_vorlesung/repls/go-einfuehrung
 	./code_vorlesung/schachbrett
+	./code_vorlesung/scopes
 	./codebeispiele/grundlagen
 	./codebeispiele/hallowelt
-	./codebeispiele/scopes
 	./codebeispiele/summenberechnung
 	./loesungen/grundlagen
 )

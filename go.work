@@ -4,6 +4,7 @@ use (
 	./aufgaben/grundlagen
 	./code_vorlesung/repls/AutomatisiertesRechnen
 	./code_vorlesung/repls/go-einfuehrung
+	./code_vorlesung/schachbrett
 	./codebeispiele/grundlagen
 	./codebeispiele/hallowelt
 	./codebeispiele/scopes

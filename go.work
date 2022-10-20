@@ -2,6 +2,7 @@ go 1.19
 
 use (
 	./aufgaben/grundlagen
+	./code_vorlesung/listen
 	./code_vorlesung/repls/AutomatisiertesRechnen
 	./code_vorlesung/repls/go-einfuehrung
 	./code_vorlesung/schachbrett

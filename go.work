@@ -3,6 +3,7 @@ go 1.19
 use (
 	./aufgaben/excelfunktionen
 	./aufgaben/grundlagen
+	./aufgaben/predictivetext
 	./code_vorlesung/listen
 	./code_vorlesung/repls/AutomatisiertesRechnen
 	./code_vorlesung/repls/go-einfuehrung

@@ -1,6 +1,7 @@
 go 1.19
 
 use (
+	./aufgaben/excelfunktionen
 	./aufgaben/grundlagen
 	./code_vorlesung/listen
 	./code_vorlesung/repls/AutomatisiertesRechnen

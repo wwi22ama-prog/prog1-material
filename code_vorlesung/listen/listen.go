@@ -6,7 +6,42 @@ import (
 )
 
 func main() {
+	list1 := []int{13, 5, 42, 24, 15, 77, -4, 38}
+	list2 := []int{}
+	fmt.Println(Max(list1))
+	fmt.Println(Max(list2))
+}
 
+// Bestimmt das größte Element der Liste.
+// Liefert 0, falls die Liste leer ist.
+func Max(list []int) int {
+	if len(list) == 0 {
+		return 0
+	}
+	result := list[0]
+	for _, el := range list {
+		if el > result {
+			result = el
+		}
+	}
+	return result
+}
+
+// Bestimmt das größte Element der Liste.
+// Liefert 0, falls die Liste leer ist.
+func Max2(list []int) int {
+	result := 0
+	for i := 0; i < len(list); i++ {
+		if list[i] > result {
+			result = list[i]
+		}
+	}
+	return result
+}
+
+func MaxSort(list1 []int) int {
+	sort.Ints(list1)
+	return list1[len(list1)-1]
 }
 
 func Anfangsbeispiele() {

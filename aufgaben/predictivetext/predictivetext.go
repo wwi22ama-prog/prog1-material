@@ -1,19 +1,49 @@
 package main
 
+// Dies ist die bearbeitete Version der Aufgaben aus der Vorlesung.
+// Eine komplette Lösung folgt auch noch unter "loesungen".
+
+import "strings"
+
 // Erwartet eine Liste von Strings dataBase und einen einzelnen String prefix.
 // Liefert eine gefilterte mit genau den Strings aus dataBase, von denen prefix
 // tatsächlich ein Präfix ist. D.h. die Strings, die mit prefix beginnen.
 func FilterByPrefix(dataBase []string, prefix string) []string {
 	result := []string{}
-	// TODO
+	for _, el := range dataBase {
+		if strings.HasPrefix(el, prefix) {
+			result = append(result, el)
+		}
+	}
 	return result
 }
 
 // Erwartet zwei Strings s1 und s2. Prüft, ob s2 aus s1 entsteht,
 // indem man ein Zeichen aus s1 weglässt.
 func HasExtraLetter(s1, s2 string) bool {
-	// TODO
-	return false
+	// Uninteressante Fälle ausschließen:
+	// Wenn die Längen nicht passen, kann nicht mehr true herauskommen.
+	if len(s2) != len(s1)-1 {
+		return false
+	}
+
+	// Idee: Wir zählen die Unterschiede zwischen den Strings.
+	// Dazu lassen eine Schleife über beide Strings laufen.
+	// pos1 wandert durch s1, pos2 wandert durch s2.
+	// Während pos1 immer wandert (also einfach der Schleifenzähler ist),
+	// wandert pos2 nur, wenn die beiden Buchstaben an diesen Stellen gleich sind.
+	differences := 0
+	pos2 := 0
+	for pos1 := range s1 { // for pos1 := 0; pos1 < len(s1); pos1++
+		if pos2 == len(s2) || s1[pos1] != s2[pos2] {
+			differences++
+		} else {
+			pos2++
+		}
+	}
+	// Wenn wir am Ende genau einen Unterschied zwischen den Strings haben,
+	// ist s1 um genau einen Buchstaben größer als s2.
+	return differences == 1
 }
 
 // Erwartet eine Liste von Strings dataBase und einen einzelnen String substring.
@@ -21,7 +51,11 @@ func HasExtraLetter(s1, s2 string) bool {
 // entsteht indem man ein Zeichen entfernt.
 func FilterByExtraLetter(dataBase []string, substring string) []string {
 	result := []string{}
-	// TODO
+	for _, element := range dataBase {
+		if HasExtraLetter(element, substring) {
+			result = append(result, element)
+		}
+	}
 	return result
 }
 
@@ -37,7 +71,11 @@ func ContainsScatteredSubstring(s1, s2 string) bool {
 // entsteht indem man beliebig viele Zeichen entfernt.
 func FilterByScatteredSubstring(dataBase []string, substring string) []string {
 	result := []string{}
-	// TODO
+	for _, element := range dataBase {
+		if ContainsScatteredSubstring(element, substring) {
+			result = append(result, element)
+		}
+	}
 	return result
 }
 

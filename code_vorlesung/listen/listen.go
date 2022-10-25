@@ -6,6 +6,10 @@ import (
 )
 
 func main() {
+
+}
+
+func Anfangsbeispiele() {
 	liste1 := make([]int, 0)
 	fmt.Println(liste1)
 

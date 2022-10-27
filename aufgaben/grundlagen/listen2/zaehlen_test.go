@@ -103,8 +103,8 @@ func ExampleCountEqualElements_differentLength() {
 	fmt.Println(CountEqualElements(l2, l1))
 
 	// Output:
-	// 3
-	// 3
+	// 1
+	// 1
 }
 
 func ExampleCountGreaterElements_equalLength() {
@@ -135,5 +135,5 @@ func ExampleCountGreaterElements_differentLength() {
 
 	// Output:
 	// 2
-	// 3
+	// 1
 }

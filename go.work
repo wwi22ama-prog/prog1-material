@@ -6,6 +6,7 @@ use (
 	./aufgaben/predictivetext
 	./code_vorlesung/dateien
 	./code_vorlesung/listen
+	./code_vorlesung/listen2d
 	./code_vorlesung/repls/AutomatisiertesRechnen
 	./code_vorlesung/repls/go-einfuehrung
 	./code_vorlesung/schachbrett

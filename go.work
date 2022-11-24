@@ -16,5 +16,6 @@ use (
 	./codebeispiele/grundlagen
 	./codebeispiele/hallowelt
 	./codebeispiele/summenberechnung
+	./loesungen/excelfunktionen
 	./loesungen/grundlagen
 )

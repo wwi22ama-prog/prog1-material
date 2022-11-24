@@ -7,6 +7,7 @@ use (
 	./code_vorlesung/dateien
 	./code_vorlesung/listen
 	./code_vorlesung/listen2d
+	./code_vorlesung/maumau
 	./code_vorlesung/repls/AutomatisiertesRechnen
 	./code_vorlesung/repls/go-einfuehrung
 	./code_vorlesung/schachbrett

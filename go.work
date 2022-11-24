@@ -11,6 +11,7 @@ use (
 	./code_vorlesung/repls/go-einfuehrung
 	./code_vorlesung/schachbrett
 	./code_vorlesung/scopes
+	./code_vorlesung/structs
 	./codebeispiele/grundlagen
 	./codebeispiele/hallowelt
 	./codebeispiele/summenberechnung

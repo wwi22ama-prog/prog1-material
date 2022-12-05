@@ -12,4 +12,4 @@ Diese sollten Sie also zuerst implementieren oder zwischendurch darauf zurückko
 
 **Anwendung der Funktionen:** Um z.B. die Funktion `IsDigit()` aus dem Package `misc`
 in einer der Dateien hier zu verwenden, muss sie mit `misc.IsDigit(...)` aufgerufen
-werden. Außerdem muss das Package mit `import "aufgaben/excelfunktionen/misc"` importiert werden.
+werden. Außerdem muss das Package mit `"loesungen/excelfunktionen/misc"` importiert werden.

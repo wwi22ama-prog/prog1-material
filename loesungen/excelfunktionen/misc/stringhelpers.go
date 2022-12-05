@@ -4,7 +4,11 @@ package misc
 // Liefert einen neuen String mit dem Ergebnis.
 func FilterUpperCase(cellAddress string) string {
 	result := ""
-	// TODO
+	for _, el := range cellAddress {
+		if IsUpperCase(el) {
+			result += string(el)
+		}
+	}
 	return result
 }
 
@@ -12,9 +16,9 @@ func FilterUpperCase(cellAddress string) string {
 // Liefert einen neuen String mit dem Ergebnis.
 func FilterDigits(cellAddress string) string {
 	result := ""
-	for _, c := range cellAddress {
-		if c >= '0' && c <= '9' {
-			result += string(c)
+	for _, el := range cellAddress {
+		if IsDigit(el) {
+			result += string(el)
 		}
 	}
 	return result
@@ -22,12 +26,10 @@ func FilterDigits(cellAddress string) string {
 
 // Erwartet ein Zeichen und liefert true, falls dies ein Großbuchstabe ist.
 func IsUpperCase(b rune) bool {
-	// TODO
-	return false
+	return b >= 'A' && b <= 'Z'
 }
 
 // Erwartet ein Zeichen und liefert true, falls dies eine Ziffer ist.
 func IsDigit(b rune) bool {
-	// TODO
-	return false
+	return b >= '0' && b <= '9'
 }

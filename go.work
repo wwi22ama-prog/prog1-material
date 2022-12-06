@@ -9,6 +9,7 @@ use (
 	./code_vorlesung/listen2d
 	./code_vorlesung/maumau
 	./code_vorlesung/pointer
+	./code_vorlesung/rekursion
 	./code_vorlesung/repls/AutomatisiertesRechnen
 	./code_vorlesung/repls/go-einfuehrung
 	./code_vorlesung/schachbrett
